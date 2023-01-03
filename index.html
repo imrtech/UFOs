@@ -64,15 +64,24 @@
                 <li class="list-group-item bg-dark">
                   <label for="datetime">Enter Date</label>
                   <input type="text" placeholder="1/10/2010" id="datetime" />
-                </li>
-                <li class="list-group-item bg-dark">
-                  <button id="filter-btn" type="button" class="btn btn-dark">
-                    Filter Table
-                  </button>
-                </li>
-              </ul>
+                  
+       <!-- Filter by City, State, Country and Shape -->          
+                  <li class="bg-dark list-group-item">
+                    <label for="city">Enter a City</label><br>
+                    <input type="text" placeholder="boulder" id="city" /></li>
+                <li class="bg-dark list-group-item">   
+                    <label for="state">Enter a state</label><br>
+                    <input type="text" placeholder="co" id="state" /></li>
+                <li class="bg-dark list-group-item">
+                    <label for="country">Enter a Country</label><br>
+                    <input type="text" placeholder="us" id="country" /></li>
+                <li class="bg-dark list-group-item">
+                    <label for="shape">Enter a Shape</label><br>
+                    <input type="text" placeholder="circle" id="shape" /></li>
+                </li> 
+                </ul>
             </form>
-          </div>
+            </div>
 
           <!-- Table -->
           <div class="col-md-9">
@@ -94,7 +103,7 @@
         </div>
       </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.12.0/d3.js"></script>
     <script src="static/js/data.js"></script>
     <script src="static/js/app.js"></script>
   </body>
