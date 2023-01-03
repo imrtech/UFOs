@@ -8,20 +8,23 @@ The purpose of this project was to use our knowledge of JavaScript to organize t
 
 
 - The user interface is a clean webpage.
+
 Webpage: 
 ![This is an image](/static/images/webpage.png)
 
 - It contains a filter search that allows a user to select a date, city, state, country and shape. 
+
 Filter Search:
 ![This is an image](/static/images/filter_search.png)
 
--- The filter search records the selections and stores the results in the table to it's right. The table contains columns for Date, City, State, Country, Shape, Duration and Comments.
+- The filter search records the selections and stores the results in the table to it's right. The table contains columns for Date, City, State, Country, Shape, Duration and Comments.
 
 Table:
 ![This is an image](/static/images/results_table.png)
 
 
--- You can select multiple items from the filter to narrow your search criteria.  For example, when you search by "city", the table will update to only show that "city". If you select an additional search item such as "shape", the results will only show rows that contain the shape you selected for the "city" in your first search results.
+- You can select multiple items from the filter to narrow your search criteria.  For example, when you search by "city", the table will update to only show that "city". If you select an additional search item such as "shape", the results will only show rows that contain the shape you selected for the "city" in your first search results.
+
 Search criteria 1:
 ![This is an image](/static/images/search1.png)
 
@@ -43,6 +46,6 @@ For example, in this particular search for the city of "el cajon" I typed "El ca
 ![This is an image](/static/images/case_sensitive.png)
 
 **Recommendations:**
-A recommendation would be to add instructions for the user to make sure they use only lower-case letters or converted the text fields into drop-down lists. That would ensure the user does not encounter any errors.
+A recommendation would be to add instructions for the user to make sure they only use lower-case letters. An even better alternative would be to convert the text fields into drop-down lists. That would ensure the user does not encounter any errors.
 
 Another recommendation would be to sort the results by latest UFO sightings. That could be an additional filter.
